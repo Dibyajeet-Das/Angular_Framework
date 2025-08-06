@@ -1,0 +1,47 @@
+<h1 style="background-color: crimson;">This is Contact Page</h1>
+
+<h3>You Have successfully came to the Contact Page</h3>
+
+<p>contact works!</p>
+
+
+<!--Using interpolation-->
+<!--using bootstrap-->
+<div class="row">
+     <div class="col-3">
+          <p>{{firstName}}</p>          
+     </div>
+     <div class="col-3">
+          <p>{{angularVersion}}</p>          
+     </div>
+     <div class="col-3">
+          <p>{{currentDate}}</p>          
+     </div>
+     <div class="col-3">
+          <input type="text" [value]="firstName" class="form-control"/>
+     </div>
+</div>
+
+<!-- <div class="col-3">
+  <input type="text" [(ngModel)]="firstName"> 
+</div> -->
+ 
+<!--Even we can make the class dynamic using the interpolation-->
+<!--This is property Binding-->
+<div class="row">
+     <!--Simlarly we can define the Radio button and select button as well-->
+     <div class ="col-3">
+          <input [type]= "inputType"/>
+     </div>
+     
+</div>
+
+<!--using click event through function-->
+<div class="row">
+     <div class="col-3">
+          <button class="button" (click)="shoWelcomeMessage()">Show Alert</button>
+     </div>
+     <div class="col-3">
+          <button class="button" (click)="showMessage('The Skynet will be live soon')">Show Message</button>
+     </div>
+</div>

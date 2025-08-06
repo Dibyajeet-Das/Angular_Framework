@@ -1,51 +1,27 @@
-# Angular_Framework
-<div align="center">
-  <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular Logo" width="120" height="120" />
-</div>
+# AngularTut
 
-<h1 align="center">🔥 Angular - The Modern Web Framework</h1>
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.10.
 
-<p align="center">
-  <em>A powerful, TypeScript-based, open-source framework by Google for building dynamic, single-page web applications (SPAs).</em>
-</p>
+## Development server
 
----
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-### 🚀 **What is Angular?**
-Angular is a **component-based front-end framework** that helps developers build **scalable, maintainable, and high-performance web applications**.  
-It provides everything you need: **Routing, Forms, HTTP services, Dependency Injection, RxJS (Reactive Programming), and more**.
+## Code scaffolding
 
----
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-### 🛠 **Core Features**
-- **Component-based Architecture** – Build UI with reusable components.
-- **Two-way Data Binding** – Automatic synchronization between model and view.
-- **Dependency Injection** – Manage services and APIs easily.
-- **Reactive Programming** – Uses **RxJS** for handling asynchronous data streams.
-- **Routing & Navigation** – Single-page application routing with `RouterModule`.
-- **Powerful CLI** – Quickly generate components, services, and more with `ng` commands.
-- **Cross-Platform** – Build Web, Mobile (with NativeScript/Ionic), and Desktop apps.
+## Build
 
----
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-### 📦 **Key Angular Modules**
-1. **BrowserModule** – Required for running apps in the browser.
-2. **CommonModule** – Provides directives like `ngIf` and `ngFor`.
-3. **FormsModule & ReactiveFormsModule** – Template-driven and reactive forms.
-4. **HttpClientModule** – For API calls and HTTP communication.
-5. **RouterModule** – Handles application routing.
-6. **AnimationsModule** – Add smooth animations to your app.
+## Running unit tests
 
----
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-### 📋 **Getting Started**
-```bash
-# Install Angular CLI
-npm install -g @angular/cli
+## Running end-to-end tests
 
-# Create a new project
-ng new my-app
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-# Run the app
-cd my-app
-ng serve
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
